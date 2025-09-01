@@ -8,7 +8,7 @@ Supported SBCs
 - https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera/
 
 Code Examples
-- Initialization of WiFi Connectivity
+- Initialization of Ethernet Connectivity
 - Initialization of Condurrent WiFi and Ethernet Connectivity
 - Initialization of Concurrent WiFi, Ethernet Connectivty and Web Server Based Image Capture
 
