@@ -22,4 +22,4 @@ Known Issues
 - The machine.SPI module object does not completely reinitialize as well, which the network.LAN module relies on
 -  The SPI baudrate should be set to 40 MHz to support maximum Ethernet port speed performance, a hardware reset ensures is achieved
 
-The above issues do not affect core functionality, but do make interactive debugging problematic, especially if Thonny IDE is used
+The above issues do not affect core functionality, but do make interactive debugging problematic, especially if Thonny IDE is used.
