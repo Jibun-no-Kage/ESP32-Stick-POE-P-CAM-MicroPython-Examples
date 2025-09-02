@@ -33,3 +33,5 @@ MicroPython Resources
 - Download Firmware Images https://micropython.org/download/
 - Community Forum https://github.com/orgs/micropython/discussions
 - Discord https://discord.com/invite/RB8HZSAExQ
+
+The code examples are completely free to use, without any restriction or limitation.  Professional, polite feedback welcome.  If you find this code of educational value, and wish support, motivate, future development, please consider a donation to the Dachshund Rescue of your choice.
