@@ -24,6 +24,7 @@ The above issues do not affect core functionality, but do make interactive debug
 About Thonny IDE
 - Not the greatest IDE according to some MicroPython users, but a place to start if a beginner https://thonny.org/
 - Download https://github.com/thonny/thonny/releases
+- Other MicroPython Compatible IDEs https://randomnerdtutorials.com/micropython-ides-esp32-esp8266/
 
 MicroPython Resources
 - Overview https://micropython.org/
