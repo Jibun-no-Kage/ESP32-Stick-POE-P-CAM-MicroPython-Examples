@@ -20,3 +20,15 @@ Known Issues
 - The SPI baudrate should be set to 40 MHz to support maximum Ethernet port speed performance, a hardware reset ensures is achieved
 
 The above issues do not affect core functionality, but do make interactive debugging problematic, especially if Thonny IDE is used.
+
+About Thonny IDE
+- Not the greatest IDE according to some MicroPython users, but a place to start if a beginner https://thonny.org/
+- Download https://github.com/thonny/thonny/releases
+
+MicroPython Resources
+- Overview https://micropython.org/
+- Quick Start Guide https://docs.micropython.org/en/latest/esp32/tutorial/intro.html
+- API Documentation https://docs.micropython.org/en/latest/
+- Download Firmware Images https://micropython.org/download/
+- Community Forum https://github.com/orgs/micropython/discussions
+- Discord https://discord.com/invite/RB8HZSAExQ
