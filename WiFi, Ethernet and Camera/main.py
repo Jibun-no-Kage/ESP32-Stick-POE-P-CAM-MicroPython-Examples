@@ -35,8 +35,8 @@ NULL = ''
 COLON = ':'
 
 # WiFi Network And Password...
-NETWORK = 'Media'
-PASSWORD = 'M3d!@ T3@m'
+NETWORK = '*****'
+PASSWORD = '*****'
 
 # Attempt Connect...
 ATTEMPTS = const(30)
@@ -456,4 +456,5 @@ def Main():
 #
 if (__name__ == '__main__'):
     Main()
+
     
