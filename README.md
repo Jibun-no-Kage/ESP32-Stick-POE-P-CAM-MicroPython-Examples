@@ -15,9 +15,10 @@ Code Examples
 These code examples are board feature and function illustratives, and incremental in design, such that each example adds features based on the preceding code example, as outlined above.  These code examples require integrated camera support via the https://github.com/cnadler86/micropython-camera-API project.
 
 Known Issues
-- The network.LAN (i.e. W5500 Ethernet support) module object in MicroPython does not completely reinitialize unless a hard reset is done
-- The machine.SPI module object does not completely reinitialize as well, which the network.LAN module relies on
+- The network.LAN (i.e. W5500 Ethernet support) module object in MicroPython does not completely (re)initialize unless a hard reset is done
+- 'OSError: SPI host already in use' The machine.SPI module object does not completely reinitialize as well, which the network.LAN module relies on, press SBC 'reset' button after code download
 - The SPI baudrate should be set to 40 MHz to support maximum Ethernet port speed performance, a hardware reset ensures is achieved
+- Camera initialization can report initialization warning https://github.com/espressif/esp32-camera/issues/750
 
 The above issues do not affect core functionality, but do make interactive debugging problematic, especially if Thonny IDE is used.
 
