@@ -17,8 +17,8 @@ These code examples are board feature and function illustratives, and incrementa
 Known Issues
 - The network.LAN (i.e. W5500 Ethernet support) module object in MicroPython does not completely (re)initialize unless a hard reset is done
 - 'OSError: SPI host already in use' The machine.SPI module object does not completely reinitialize as well, which the network.LAN module relies on, press SBC 'reset' button after code download
-- The SPI baudrate should be set to 40 MHz to support maximum Ethernet port speed performance, a hardware reset ensures is achieved
-- Camera initialization can report initialization warning https://github.com/espressif/esp32-camera/issues/750
+- The SPI baudrate should be set to 40 MHz to support maximum Ethernet port speed performance, a button (hardware) reset ensures is achieved
+- 'No peripheral is connected to the channel' Camera (de)initialization can report a warning https://github.com/espressif/esp32-camera/issues/750
 
 The above issues do not affect core functionality, but do make interactive debugging problematic, especially if Thonny IDE is used.
 
