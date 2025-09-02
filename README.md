@@ -19,6 +19,7 @@ Known Issues
 - 'OSError: SPI host already in use' The machine.SPI module object does not completely reinitialize as well, which the network.LAN module relies on, press SBC 'reset' button after code download
 - The SPI baudrate should be set to 40 MHz to support maximum Ethernet port speed performance, a button (hardware) reset ensures is achieved
 - 'No peripheral is connected to the channel' Camera (de)initialization can report a warning https://github.com/espressif/esp32-camera/issues/750
+- 'spi_master_deinit_driver(*): not all CSses freed' SPI (de)initialization can report a warning
 
 The above issues do not affect core functionality, but do make interactive debugging problematic, especially if Thonny IDE is used.
 
