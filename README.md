@@ -8,9 +8,9 @@ Supported SBCs
 - https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera/
 
 Code Examples
-- Initialization of Ethernet Connectivity
-- Initialization of Condurrent WiFi and Ethernet Connectivity
-- Initialization of Concurrent WiFi, Ethernet Connectivty and Web Server Based Image Capture
+- Ethernet Connectivity
+- WiFi and Ethernet Concurrent Connectivity
+- WiFi and Ethernet Concurrent Connectivty and Web Server Based Camera Image Capture (i.e. Stream)
 
 These code examples are board feature and function illustratives, and incremental in design, such that each example adds features based on the preceding code example, as outlined above.  These code examples require integrated camera support via the https://github.com/cnadler86/micropython-camera-API project.
 
