@@ -1,7 +1,7 @@
 # ESP32-Stick-POE-P-CAM-MicroPython-Examples
 MicroPython Examples for ESP32-Stick-POE-P-CAM and compatible SBCs
 
-The example MicroPython code examples in this respository supports the following SBCs.  This list will be updated over time as more compatible SBCs are qualified.
+The MicroPython code examples in this respository support the following SBCs.  This list will be updated over time as more compatible SBCs are qualified.
 
 Supported SBCs
 - https://www.tindie.com/products/allexok/esp32-stick-poe-p-camn16r8/
