@@ -12,7 +12,7 @@ Code Examples
 - WiFi and Ethernet Concurrent Connectivity
 - WiFi and Ethernet Concurrent Connectivty and Web Server Based Camera Image Capture (i.e. Stream)
 
-These code examples are board feature and function illustratives, and incremental in design, such that each example adds features based on the preceding code example, as outlined above.  These code examples require integrated camera support via the https://github.com/cnadler86/micropython-camera-API project.
+These code examples are board feature and function illustrative, and incremental in design, such that each example adds features based on the preceding code example, as outlined above.  These code examples require integrated camera support via the https://github.com/cnadler86/micropython-camera-API project.
 
 Known Issues
 - The network.LAN (i.e. W5500 Ethernet support) module object in MicroPython does not completely (re)initialize unless a hard reset is done
