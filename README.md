@@ -15,8 +15,8 @@ Code Examples
 These code examples are board feature and function illustrative, and incremental in design, such that each example adds features based on the preceding code example, as outlined above.  These code examples require integrated camera support via the https://github.com/cnadler86/micropython-camera-API project.
 
 Known Issues
-- 'OSError: [Errno 95] EOPNOTSUPP: ESP_ERR_NOT_SUPPORTED' Change 'frame_size' parameter in the Camera() object creation method
-    <br><i>To display possible 'frame_size' values:</i><br>\>>> from camera import FrameSize
+- 'OSError: [Errno 95] EOPNOTSUPP: ESP_ERR_NOT_SUPPORTED' Validate camera is installed correctly, and/or frame_size is supported
+    <br><i>Change 'frame_size' parameter in the Camera() object creation method to a supprted size.  To display possible 'frame_size' values:</i><br>\>>> from camera import FrameSize
     <br>\>>> dir(camera)
     <br>['__class__', '__name__', 'CIF', 'FHD', 'HD', 'HQVGA', 'HVGA', 'P_3MP', 'P_FHD', 'P_HD', 'QCIF', 'QHD', 'QQVGA', 'QSXGA', 'QVGA', 'QXGA',
     'R128x128', 'R240X240', 'R320X320', 'R96X96', 'SVGA', 'SXGA', 'UXGA', 'VGA', 'WQXGA', 'XGA', '__bases__', '__dict__']<br>
