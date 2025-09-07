@@ -15,6 +15,11 @@ Code Examples
 These code examples are board feature and function illustrative, and incremental in design, such that each example adds features based on the preceding code example, as outlined above.  These code examples require integrated camera support via the https://github.com/cnadler86/micropython-camera-API project.
 
 Known Issues
+- 'OSError: [Errno 95] EOPNOTSUPP: ESP_ERR_NOT_SUPPORTED' Change 'frame_size' in the Camera() object creation method to a frame size appropriate for your camera
+    >>> from camera import FrameSize
+    >>> dir(camera)
+    ['__class__', '__name__', 'CIF', 'FHD', 'HD', 'HQVGA', 'HVGA', 'P_3MP', 'P_FHD', 'P_HD', 'QCIF', 'QHD', 'QQVGA', 'QSXGA', 'QVGA', 'QXGA',
+    'R128x128', 'R240X240', 'R320X320', 'R96X96', 'SVGA', 'SXGA', 'UXGA', 'VGA', 'WQXGA', 'XGA', '__bases__', '__dict__']
 - The network.LAN (i.e. W5500 Ethernet support) module object in MicroPython does not completely (re)initialize unless a hard reset is done
 - 'OSError: SPI host already in use' The machine.SPI module object does not completely (re)initialize as well, which the network.LAN module relies on, press SBC 'reset' button after code download
 - The SPI baudrate should be set to 40 MHz to support maximum Ethernet port speed performance, a button (hardware) reset ensures is achieved
